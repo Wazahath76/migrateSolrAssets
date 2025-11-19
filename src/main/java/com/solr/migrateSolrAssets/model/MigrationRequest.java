@@ -1,8 +1,11 @@
 package com.solr.migrateSolrAssets.model;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class MigrationRequest {
     private int assetType;
     private int startRow;
